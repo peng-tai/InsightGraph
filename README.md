@@ -2,6 +2,10 @@
 
 智能数据分析和可视化工具 - 通过自然语言生成图表并自动解释数据含义
 
+## 🌐 在线访问
+
+[https://peng-tai.github.io/InsightGraph/](https://peng-tai.github.io/InsightGraph/)
+
 ## 技术栈
 
 - **前端**: React + TypeScript + Vite
