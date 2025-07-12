@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "server/index.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/server/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/$1"
+    }
+  ],
+  "env": {
+    "DOUBAO_API_KEY": "@doubao_api_key",
+    "DOUBAO_MODEL": "@doubao_model"
+  }
+}
